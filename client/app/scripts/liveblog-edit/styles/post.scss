@@ -167,7 +167,16 @@
             padding: 0
         }
         blockquote {
+            &:before {
+                font-family: "Times New Roman", Georgia, Serif;
+                font-size: 50px;
+                position: absolute;
+                top: 35px;
+                left: 0px;
+                content: "\201C";
+            }
             h4 {
+                font-size: 13px;
                 font-weight: 300;
             }
         }
